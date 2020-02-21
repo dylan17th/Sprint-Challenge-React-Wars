@@ -39,9 +39,10 @@ padding: .5rem;
 `
 
 export default function CharacterCard({name, height, mass, birth_year}){
+
     return (
     <CharacterContainer>
-        <NameTitle>{name}</NameTitle>
+        <NameTitle >{name}</NameTitle>
         <HeightDiv>Height: {height} inches</HeightDiv>
         <WeightDiv>Weight: {mass} pounds </WeightDiv>
         <BirthDiv>Born: {birth_year}</BirthDiv>
