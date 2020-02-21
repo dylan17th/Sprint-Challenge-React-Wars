@@ -37,7 +37,7 @@ const App = () => {
   return (
     <ContainerDiv>
       <WarsHeader>React Wars</WarsHeader>
-      {characters.map(character => (<CharacterCard name={character.name} height={character.height} mass={character.mass} birth_year={character.birth_year}/>))}
+      {characters.map((character, index) => (<CharacterCard key={index} name={character.name} height={character.height} mass={character.mass} birth_year={character.birth_year}/>))}
     </ContainerDiv>
   );
 }
