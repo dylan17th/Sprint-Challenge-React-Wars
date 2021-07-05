@@ -1,0 +1,19 @@
+1.What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+Answer: React JS is a library for JS used by to develop user interfaces. React allows developers to create reusable components. These components can make large web applications that dynamically render data. Developers use React because it is simple, has great structure, easily debugged, isn’t verbos and uses a combination of JSX and JS syntax that makes writing code logical.   
+ 
+2. What does it mean to think in react?
+
+Answer:  Thinking in React means to understand the hierarchy inside the library. When setting up a React application it has to be broken down into components.  These components can go many layers deep, but will all eventually be imported into the main component. This helps with structure and organization, but initially can be very confusing for a developer. Additionally, This sets up a structure that makes component inheritance easy and helps developers dealer dynamic content to the UI.
+ 
+ 3.Describe state.
+
+Answer: State is just a piece of a component that can change. We use state to update the UI upon interaction or whenever we find it necessary. 
+ 
+ 4.Describe props.
+
+Answer: Props are simply just objects. In react it can be passed from component to component and enables us to render dynamic data for the UI. 
+ 
+ 5.What are side effects, and how do you sync effects in a React component to state or prop changes?
+ 
+Answer: A side effect is anything that changes something outside of its functional scope. One side effect is useEffect and it takes two arguments. The first argument is the function you wish to run, the next is an array. This array can be empty or contain as many states or props as you want. The useEffect hook will re-render once with an empty array or if the array contains a state, then it will re-render anytime that piece of state changes. 
